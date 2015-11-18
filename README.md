@@ -1,3 +1,13 @@
+MERGING CONFIG FRAGMENTS
+========================
+
+Examples
+--------
+
+Merging `debug.cfg` into `.config`:
+
+	./scripts/kconfig/merge_config.sh -m .config ../config_fragments/debug.cfg
+
 DYNAMIC DEBUG
 =============
 
